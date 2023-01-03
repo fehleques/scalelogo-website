@@ -3,7 +3,7 @@
 $(document).ready(function () {
     if (!Cookies.get('alert')) {
         setTimeout(function () {
-            $('.popup_discount-overlay').css('display', 'flex');
+            $('.popup_discount-wrapper').css('display', 'flex');
             Cookies.set('alert', true, { expires: 1 });
         }, 7000);
     }
@@ -12,7 +12,7 @@ $(document).ready(function () {
 //When X Button is clicked the modal close
 
 var hide = document.getElementsByClassName('popup_close-btn');
-var show = document.getElementsByClassName('popup_discount-overlay');
+var show = document.getElementsByClassName('popup_discount-wrapper');
 for (var i = 0; i < hide.length; i++) {
     hide[i].addEventListener('click', function () {
         for (var j = 0; j < show.length; j++) {
