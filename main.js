@@ -1,3 +1,12 @@
+//Dribbble popup discount
+$(document).ready(function () {
+    if (!Cookies.get('alert')) {
+        setTimeout(function () {
+            $('.popup_discount-wrapper').css('display', 'flex');
+            Cookies.set('alert', true, { expires: 1 });
+        }, 7000);
+    }
+});
 //Videoask lazy load
 $(window).on("load", function () {
     $(".sl_hero-right-wrapper").css({ display: "block", transition: "all 300ms ease-in-out", transform: "translateX(0)" });
