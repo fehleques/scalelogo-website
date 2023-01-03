@@ -1,4 +1,4 @@
-//Dribbble popup discount open test
+//Dribbble popup discount open
 
 $(document).ready(function () {
     if (!Cookies.get('alert')) {
