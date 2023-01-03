@@ -1,3 +1,148 @@
-.background-element {`
-    background-image: color: black;;
+<style>html {
+    font-size: 1rem;
 }
+
+@media screen and (max-width:1920px) {
+    html {
+        font-size: calc(0.4999999999999997rem + 0.4166666666666669vw);
+    }
+}
+
+@media screen and (max-width:1680px) {
+    html {
+        font-size: calc(0.5rem + 0.41666666666666663vw);
+    }
+}
+
+@media screen and (max-width:1440px) {
+    html {
+        font-size: calc(0.8126951092611863rem + 0.20811654526534862vw);
+    }
+}
+
+@media screen and (max-width:479px) {
+    html {
+        font-size: calc(0.7494769874476988rem + 0.8368200836820083vw);
+    }
+}
+
+/*Fine tune custom CSS*/
+.sl_hero-left-wrapper .sl-text-size-large {
+    max-width: 40ch;
+}
+
+.sl_hero-left-wrapper .sl_heading-style-big {
+    max-width: 9ch;
+}
+
+.sl_process-card-wrapper .sl_heading-style-small {
+    max-width: 15ch;
+}
+
+.sl_process-card-wrapper .sl-text-size-small {
+    color: #7c7985;
+}
+
+.sl_process-wrapper .sl_process-card-wrapper:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 479px) {
+    .sl_process-wrapper .sl_process-card-wrapper:nth-child(even) {
+        flex-direction: column;
+    }
+}
+
+
+.sl_pricing-card-top-wrapper .sl_heading-style-tiny {
+    margin-right: 0.8em;
+}
+
+.sl_pricing-info-card .sl-text-size-tiny {
+    margin-top: 1.8em;
+    color: #707070;
+}
+
+.sl_pricing-comp .sl-text-size-tiny {
+    color: #7c7985;
+}
+
+.sl_faq-contact-card-text-wrapper .sl_main-cta {
+    margin-top: 1.5em;
+}
+
+/*Navbar on scroll*/
+.on-scroll .sl_brand-logo-img {
+    color: #f9feff;
+}
+
+/*Menu gallery interaction*/
+.is--expanded .sl_logo-gallery-gradient {
+    display: none !important;
+}
+
+.is--expanded .sl_logo-gallery-wrapper {
+    height: auto !important;
+    margin-bottom: 3.75em;
+}
+
+.is--expanded .sl_testimonials-gradient {
+    display: none;
+}
+
+.is--expanded .sl_testimonials-wrapper {
+    height: auto;
+    overflow: block;
+    margin-bottom: 3.75em;
+}
+
+/* FAQ Interaction with class ".faq-clicked" */
+
+.faq-clicked .sl_faq-question-icon {
+    transform: rotate(135deg);
+}
+
+.faq-clicked .sl_faq-answer {
+    display: block;
+    height: auto;
+    padding-bottom: 25px;
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+a,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.sl_videoask-bouding-box {
+    pointer-events: none;
+}
+
+.sl_faq-item:last-of-type {
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+}
+
+::-moz-selection {
+    color: #d7d7d7;
+    background: #030303;
+}
+
+::selection {
+    color: #d7d7d7;
+    background: #030303;
+}
+
+[class*="noise"] {
+    background-image: @img_63a9d93ef3af99e9865812af;
+    background-position: 0rem 0rem;
+    background-size: auto;
+}
+
+</style>
