@@ -5,7 +5,7 @@ $(document).ready(function () {
         setTimeout(function () {
             $('.popup_discount-wrapper').css('display', 'flex');
             Cookies.set('alert', true, { expires: 1 });
-        }, 7000);
+        }, 6000);
     }
 });
 
