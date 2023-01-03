@@ -138,9 +138,3 @@ a,
     color: #d7d7d7;
     background: #030303;
 }
-
-[class*="noise"] {
-    background-image: @img_63a9d93ef3af99e9865812af;
-    background-position: 0rem 0rem;
-    background-size: auto;
-}
